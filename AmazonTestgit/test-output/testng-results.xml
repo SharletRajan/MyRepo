@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-09T17:36:31 IST" name="Default suite" finished-at="2022-02-09T17:39:11 IST" duration-ms="160737">
+    <groups>
+    </groups>
+    <test started-at="2022-02-09T17:36:31 IST" name="Default test" finished-at="2022-02-09T17:39:11 IST" duration-ms="160737">
+      <class name="TestNGAmzn.NewTestAmzn">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNGAmzn.NewTestAmzn@429bffaa]" started-at="2022-02-09T17:36:31 IST" name="beforeMethod" finished-at="2022-02-09T17:37:12 IST" duration-ms="41269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f(java.lang.String)[pri:0, instance:TestNGAmzn.NewTestAmzn@429bffaa]" started-at="2022-02-09T17:37:12 IST" name="f" finished-at="2022-02-09T17:38:51 IST" duration-ms="99328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kajal black waterproof]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNGAmzn.NewTestAmzn@429bffaa]" started-at="2022-02-09T17:38:52 IST" name="afterMethod" finished-at="2022-02-09T17:39:11 IST" duration-ms="19788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestNGAmzn.NewTestAmzn -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
