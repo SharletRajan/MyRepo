@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="TestPOM1">
+		<parameter name="url" value="https://www.amazon.in/" />
+		<parameter name="search" value="kajal black waterproof" />
+		<classes>
+			<class name="tests.Test_HomepageAmzn" />
+		</classes>
+	</test> <!-- TestPOM1 -->
+</suite> <!-- Suite -->
